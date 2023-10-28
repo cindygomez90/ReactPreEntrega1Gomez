@@ -1,0 +1,14 @@
+.BarraNav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 0;
+    background-color: #c7edf0;
+    gap: 90px;
+}
+
+
+.Categorías a {
+    margin: 30px;
+}
