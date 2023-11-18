@@ -1,3 +1,14 @@
+.prodcarrito {
+    display: flex;
+    flex-direction: row;
+    gap: 200px;
+}
+
+.fincarrito {
+    display: flex;
+    flex-direction: column;
+}
+
 .Boton {
     border-radius: 8px;
     border: 1px solid;
@@ -7,12 +18,4 @@
     font-weight: 500;
     background-color: #c7edf0;
     cursor: pointer;
-}
-
-.Botones {
-    display: flex;
-    flex-direction: row;
-    justify-content:center;
-    align-items: center;
-    gap: 30px;
 }

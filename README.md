@@ -1,8 +1,25 @@
-# React + Vite
+# Ecommerce Cueros
+## _Ecommerce en proceso de construcción_
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Características
+Este proyecto fue iniciado con React.
 
-Currently, two official plugins are available:
+## Instalación. Ejecución local.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Instalar las dependencias e inicializar el servidor.
+
+```sh
+$ cd ecommercecueros
+$ npm install
+$ npm run dev
+```
+
+Ejecutar la aplicación en el modo de desarrollo.
+Abrir http://localhost:5173/ para verlo en tu navegador.
+La página se recargará cuando hagas cambios, permitiendo ver también cuando haya errores en la consola.
+
+## Rutas disponibles
+- [ItemListContainer] - Ruta donde se listan los productos. Se permite filtrar por categoría.
+- [ItemDetailContainer] - Ruta que permite ver el detalle de cada producto disponible.
+- [Cart] - Ruta donde se puede observar detalle del carrito de compras generado.
+- [Checkout] - Ruta que permite generar orden de pedido del usuario. Se genera la compra con datos del comprador y se actualiza el stock disponible.

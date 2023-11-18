@@ -1,8 +1,7 @@
-import "./ItemDetailContainer.css"
 import {useState, useEffect} from "react"
-import {getProductById} from "../../asyncMock"
 import ItemDetail from "../ItemDetail/ItemDetail"
 import {useParams} from "react-router-dom"
+import {getProductById} from "../../services/firebase/firestore/products"
 
 const ItemDetailConteiner = () => {
     const [product, setProduct] = useState (null)
@@ -26,7 +25,7 @@ const ItemDetailConteiner = () => {
     }, [itemId])
 
     if(loading) {
-        return <h3>Cargando detalle</h3>
+        return <h3>Cargando detalle...</h3>
     }
 
     if(!product) {

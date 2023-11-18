@@ -1,0 +1,31 @@
+.Form {
+    background-color: #c7edf0;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.Label {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+}
+
+.Input {
+    width: 300px;
+    height: 30px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    padding: 0 10px;
+    margin: 10px;
+    }
+
+.Submit {
+    width:150px;
+    height: 40px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    background-color: #41aabd;
+    margin-left: 10px;
+}
